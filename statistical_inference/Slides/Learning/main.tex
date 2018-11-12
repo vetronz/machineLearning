@@ -1,0 +1,107 @@
+%\documentclass[handout]{beamer}
+\documentclass{beamer}
+%\documentclass[presentation]{beamer}
+
+\usecolortheme{Imperial}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[UKenglish]{babel}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+
+% complying UK date format, i.e. 1 January 2001
+%\usepackage{datetime}
+%\let\dateUKenglish\relax
+%\newdateformat{dateUKenglish}{\THEDAY~\monthname[\THEMONTH] \THEYEAR}
+
+% Imperial College Logo, not to be changed!
+\institute{\includegraphics[height=0.7cm]{Imperial_1_Pantone_solid.eps}}
+
+% -----------------------------------------------------------------------------
+
+
+%Information to be included in the title page:
+\title{Deep learning: applications to biological data}
+
+\subtitle{\url{https://bitbucket.org/mfumagal/statistical_inference}}
+
+\author{Matteo Fumagalli}
+
+\date{\today}
+
+\begin{document}
+ 
+\frame{\titlepage}
+
+\begin{frame}
+	\frametitle{Intended Learning Outcomes}
+
+	By the end of this session, you will be able to:
+	\begin{itemize}
+		\item Describe the three key components of a classifier: score function, loss function, optimisation
+		\item Identify the elements of a neural networks, including neurons and hyper-parameters
+		\item Illustrate the specific layers in a neural network for visual recognition
+		\item Appreciate the use of deep learning to solve biological problems
+		\item Demonstrate how to implement, train and evaluate a deep neural network in \texttt{python}
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Who is the \textit{deepest learner}?}
+
+	\centering{It's a competition!}
+
+	\begin{columns}
+		\column{0.6\textwidth}
+		The challenge: predict whether a species is endangered, vulnerable or of least 
+		concern from genomic data.
+		\column{0.4\textwidth}
+		\begin{figure}
+                	\includegraphics[width=0.8\textwidth]{Pics/ursus.jpg} \\
+			\tiny{\textit{Ursus arctos marsicanus}}
+        	\end{figure}
+	\end{columns}
+	
+	\vskip 1cm
+
+	The score to beat: 75\% by me.
+	
+	The prize: TBA
+	
+\end{frame}
+
+
+\include{image_classification}
+
+\include{linear_classification}
+
+\include{optimisation}
+
+\include{neural}
+
+\include{cnn}
+
+\include{popgen}
+
+\begin{frame}
+	\frametitle{Well done!}
+
+	\small{You are all data scientists now!}
+
+	\begin{figure}
+                \includegraphics[width=0.35\textwidth]{Pics/machine_learning.png}
+        \end{figure}
+
+	\small{postdoc and phd position in machine learning applied to population genetics \tiny{(deadlines Nov 21st and Jan 16th)}}
+
+\end{frame}
+
+\end{document}
+

@@ -1,0 +1,56 @@
+%\documentclass[handout]{beamer}
+\documentclass{beamer}
+%\documentclass[presentation]{beamer}
+
+\usecolortheme{Imperial}
+
+\usepackage[utf8]{inputenc}
+\usepackage[UKenglish]{babel}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+
+% complying UK date format, i.e. 1 January 2001
+%\usepackage{datetime}
+%\let\dateUKenglish\relax
+%\newdateformat{dateUKenglish}{\THEDAY~\monthname[\THEMONTH] \THEYEAR}
+
+% Imperial College Logo, not to be changed!
+\institute{\includegraphics[height=0.7cm]{../Probability/Imperial_1_Pantone_solid.eps}}
+
+\title{Bayesian methods}
+
+\subtitle{\url{https://bitbucket.org/mfumagal/statistical_inference}}
+
+\author{Matteo Fumagalli}
+
+\date{\today}
+
+\begin{document}
+
+	\frame{\titlepage}
+
+	\include{welcome}
+
+	\include{thinking}
+
+	\include{concepts}
+
+	\include{priors}
+
+	\include{inference}
+
+	\include{computation}
+
+	\include{abc}
+
+	\include{end}
+
+	\include{disclaimer}
+
+\end{document}

@@ -1,0 +1,7 @@
+\babel@toc {UKenglish}{}
+\beamer@sectionintoc {1}{Image classification}{4}{0}{1}
+\beamer@sectionintoc {2}{Linear classification}{19}{0}{2}
+\beamer@sectionintoc {3}{Optimisation}{38}{0}{3}
+\beamer@sectionintoc {4}{Neural networks}{44}{0}{4}
+\beamer@sectionintoc {5}{CNN}{60}{0}{5}
+\beamer@sectionintoc {6}{Population genetics}{75}{0}{6}

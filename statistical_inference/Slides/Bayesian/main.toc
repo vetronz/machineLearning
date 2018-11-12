@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {UKenglish}
+\beamer@sectionintoc {2}{Bayesian thinking}{4}{0}{1}
+\beamer@sectionintoc {3}{Bayesian concepts}{22}{0}{2}
+\beamer@sectionintoc {4}{Bayesian inference}{60}{0}{3}
+\beamer@sectionintoc {5}{Bayesian computation}{75}{0}{4}
+\beamer@sectionintoc {6}{Approximate Bayesian Computation}{109}{0}{5}
